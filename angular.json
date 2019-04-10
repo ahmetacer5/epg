@@ -49,8 +49,8 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
-              "baseHref": "/school-management-system/",
-              "deployUrl": "/school-management-system/",
+              "baseHref": "/epg/",
+              "deployUrl": "/epg",
               "budgets": [
                 {
                   "type": "initial",
