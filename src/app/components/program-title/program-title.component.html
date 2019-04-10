@@ -1,0 +1,13 @@
+<div fxFlex="initial" class="title-wrapper">
+  <div fxLayout="row">
+    <div fxFlex="initial" class="channel-logo">
+      <img class="channel-logo-img" [src]="program.ChannelImage">
+    </div>
+    <div fxFlex>
+      <p class="program-type">COMEDY CENTRAL</p>
+      <p class="program-title">{{program.Title}}</p>
+      <span class="sub-details">{{program.Year}}</span>
+      <span *ngFor="let genre of program.Genres" class="sub-details">{{genre}}</span>
+    </div>
+  </div>
+</div>

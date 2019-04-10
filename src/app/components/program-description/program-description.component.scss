@@ -1,0 +1,30 @@
+.description-wrapper {
+  font-size: 14px;
+  color: #ffffffb5;
+  line-height: 18px;
+  font-weight: 100;
+  overflow: hidden;
+  padding: 16px 16px 0;
+}
+
+.show-more {
+  padding: 0 16px;
+  font-size: 14px;
+  color: #ffa500ad;
+  font-weight: 100;
+  box-shadow: 1px -8px 20px 4px #000000c7;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.collapsed {
+  height: 100px;
+}
+
+.roles-wrapper {
+  color: #ffffff85;
+  padding: 0 16px;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 14px;
+}

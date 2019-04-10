@@ -1,0 +1,19 @@
+.program-wrapper {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position-y: -100px;
+  position: absolute;
+  overflow: auto;
+  top: 0;
+  bottom: 64px;
+  left: 0;
+  right: 0;
+  app-program-series, app-program-description {
+    background-color: black;
+  }
+}
+
+.empty-space-cover {
+  background-color: black;
+}

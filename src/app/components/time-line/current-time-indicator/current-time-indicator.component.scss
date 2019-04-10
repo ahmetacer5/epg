@@ -1,0 +1,20 @@
+.current-time-indicator-handle {
+  width: 3px;
+  position: absolute;
+  height: 43px;
+  background-color: #e2a21e;
+  left: 201px;
+  border-radius: 2px;
+  top: 2px;
+  z-index: 2;
+}
+
+.current-time-indicator {
+  width: 1px;
+  position: absolute;
+  height: 100vh;
+  background-color: #e2a21e;
+  left: 202px;
+  top: 4px;
+  z-index: 2;
+}

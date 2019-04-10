@@ -1,0 +1,16 @@
+<div fxFlex="initial">
+  <div fxLayout="row wrap" class="series-list-wrapper">
+    <div fxFlex="initial"
+         *ngFor="let series of program.Series"
+         (click)="selectedSeries=series;"
+         class="series-item"
+         [class.selected]="selectedSeries===series">
+      {{series.Title}}
+    </div>
+  </div>
+  <div fxLayout="column" *ngIf="selectedSeries" class="episodes-wrapper">
+    <div fxFlex="initial" *ngFor="let episodes of selectedSeries.Episodes; let i=index;">
+      Episode {{(i+1)}}: {{episodes.Title}}
+    </div>
+  </div>
+</div>

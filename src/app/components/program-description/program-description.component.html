@@ -1,0 +1,14 @@
+<div fxFlex="initial" class="description-wrapper" [class.collapsed]="collapsed">
+  {{program.Description}}
+</div>
+<div fxFlex="initial" class="show-more" (click)="collapsed=!collapsed;">
+  {{collapsed?'more':'less'}}
+</div>
+<div fxFlex="initial" class="roles-wrapper">
+  <span>Cast:</span>
+  <span *ngFor="let cast of program.Cast; let i=index;">{{cast.Name + (i < program.Cast.length-1?', ':'.')}}</span>
+</div>
+<div fxFlex="initial" class="roles-wrapper">
+  <span>Creators:</span>
+  <span *ngFor="let creator of program.Creators; let i=index;">{{creator.Name + (i < program.Creators.length-1?', ':'.')}}</span>
+</div>

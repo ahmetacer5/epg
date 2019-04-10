@@ -1,0 +1,18 @@
+<div fxLayout="row" fxLayoutAlign="space-between center" class="header-wrapper" [class.transparent]="transparent">
+  <div fxFlex="initial">
+    <button type="button" class="btn header-button" *ngIf="!showBackButton">
+      <i class="fas fa-user"></i>
+    </button>
+    <button type="button" class="btn header-button" *ngIf="showBackButton" [routerLink]="['/']">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+  </div>
+  <div fxFlex="initial">
+    <img src="../../../assets/img/app-logo.png" class="app-logo">
+  </div>
+  <div fxFlex="initial">
+    <button type="button" class="btn header-button">
+      <i class="fas fa-search"></i>
+    </button>
+  </div>
+</div>

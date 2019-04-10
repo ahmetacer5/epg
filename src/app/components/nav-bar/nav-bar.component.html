@@ -1,0 +1,7 @@
+<div fxLayout="row" fxLayoutAlign="space-between center" class="nav-bar-wrapper">
+  <div fxFlex="initial" *ngFor="let page of pages">
+    <button type="button" class="btn" [routerLink]="['/', page.route]" routerLinkActive="active-route" [disabled]="true">
+      <i [ngClass]="page.iconClass"></i>
+    </button>
+  </div>
+</div>

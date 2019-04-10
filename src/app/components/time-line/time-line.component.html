@@ -1,0 +1,9 @@
+<div fxLayout="column" class="time-line-wrapper" *ngIf="epgData">
+  <div fxFlex="initial">
+    <app-date-selector></app-date-selector>
+  </div>
+  <div fxFlex id="schedule-wrapper">
+    <app-time-row></app-time-row>
+    <app-channel-list [channels]="epgData.Channels"></app-channel-list>
+  </div>
+</div>

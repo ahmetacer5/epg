@@ -1,0 +1,7 @@
+<div fxLayout="row" class="times-wrapper">
+  <div fxFlex="initial" class="time-item" *ngFor="let time of times">
+    <p class="time">{{time | date:'HH:mm'}}</p>
+    <div class="hour-indicator"></div>
+  </div>
+  <app-current-time-indicator appRealTimeClock></app-current-time-indicator>
+</div>

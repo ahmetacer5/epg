@@ -1,0 +1,16 @@
+<div fxLayout="row">
+  <div fxFlex="initial" class="favorite">
+    <button type="button" class="btn">
+      <i class="fas fa-star"></i>
+    </button>
+  </div>
+  <div fxFlex class="dates-wrapper" id="dates-wrapper">
+    <div fxLayout="row">
+      <app-date-selector-item *ngFor="let date of dummyDates; let i=index;"
+                              [date]="date"
+                              [id]="'date-select-item-' + i"
+                              [isSelected]="selectedDate===date"
+                              (click)="selectDate(date);"></app-date-selector-item>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+.schedule-item {
+  height: 63px;
+  background-color: #111111;
+  position: absolute;
+  padding: 8px 12px;
+  border-right: solid 1px #ffffff3d;
+  cursor: pointer;
+  .program-title {
+    margin: 0;
+    color: #ffffffdb;
+    font-size: 13px;
+    line-height: 13px;
+  }
+
+  .program-time {
+    color: #ffffff57;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 4px 0 0;
+  }
+}

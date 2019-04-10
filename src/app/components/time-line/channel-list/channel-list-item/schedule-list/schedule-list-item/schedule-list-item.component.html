@@ -1,0 +1,4 @@
+<div fxFlex="initial" class="schedule-item" [appBlockResizer]="schedule" [routerLink]="['/program', schedule.Id]">
+  <p class="program-title">{{schedule.Title}}</p>
+  <p class="program-time">{{schedule.StartDate | date:'HH:mm'}} - {{schedule.EndDate | date:'HH:mm'}}</p>
+</div>

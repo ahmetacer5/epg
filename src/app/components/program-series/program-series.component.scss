@@ -1,0 +1,23 @@
+.series-list-wrapper {
+  align-items: center;
+  padding: 16px;
+  .series-item {
+    text-transform: uppercase;
+    border: solid 1px #ffffff38;
+    padding: 2px 8px;
+    font-size: 14px;
+    color: #ffffffa1;
+    font-weight: 100;
+    margin-right: 14px;
+    cursor: pointer;
+  }
+  .selected {
+    background-color: #ffffff3d;
+    border: solid 1px transparent;
+  }
+}
+.episodes-wrapper {
+  padding: 0 16px;
+  color: #ffffffb5;
+  font-weight: 100;
+}

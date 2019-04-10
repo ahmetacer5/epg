@@ -1,0 +1,22 @@
+.header-wrapper {
+  padding: 0 16px;
+  height: 64px;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  .app-logo {
+    height: 48px;
+  }
+  .header-button {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 24px;
+  }
+}
+
+.transparent {
+  background-color: transparent;
+}

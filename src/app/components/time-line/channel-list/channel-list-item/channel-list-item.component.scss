@@ -1,0 +1,22 @@
+.channel-logo {
+  height: 64px;
+  min-width: 70px;
+  max-width: 70px;
+  display: table;
+  border-bottom: solid 1px #ffffff3d;
+  background-color: #202020;
+  box-shadow: 2px 0px 5px 0px #00000063;
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  padding: 10px 15px;
+  .channel-logo-img{
+    width: 40px;
+  }
+}
+
+.channel-schedule {
+  margin-left: -50px;
+  border-bottom: solid 1px #ffffff3d;
+}

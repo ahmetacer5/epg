@@ -1,0 +1,16 @@
+.favorite {
+  background-color: #202020;
+  padding: 8px;
+  box-shadow: 0 0 7px 1px black;
+  position: relative;
+  width: 70px;
+  button {
+    font-size: 24px;
+    color: #545454;
+  }
+}
+
+.dates-wrapper {
+  background-color: #202020;
+  overflow: auto;
+}

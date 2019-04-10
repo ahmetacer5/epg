@@ -1,0 +1,29 @@
+.times-wrapper {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  margin-left: -70px;
+  .time-item {
+    padding: 12px;
+    min-width: 280px;
+    position: relative;
+    border-top: solid 1px #ffffff3d;
+    border-bottom: solid 1px #ffffff3d;
+    background-color: #202020;
+    .time {
+      margin: 0;
+      text-align: center;
+      color: white;
+      font-size: 14px;
+    }
+    .hour-indicator {
+      position: absolute;
+      background-color: #ffffff3d;
+      width: 1px;
+      height: 10px;
+      left: 50%;
+      bottom: 0;
+    }
+  }
+}

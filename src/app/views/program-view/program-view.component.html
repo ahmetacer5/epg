@@ -1,0 +1,6 @@
+<div fxLayout="column" *ngIf="(program | async) as program" [ngStyle]="{'background-image': 'url(' + program.Image + ')'}" class="program-wrapper">
+  <app-program-title [program]="program"></app-program-title>
+  <app-program-description fxLayout="column" [program]="program"></app-program-description>
+  <app-program-series fxLayout="column" [program]="program"></app-program-series>
+  <div fxFlex class="empty-space-cover"></div>
+</div>
