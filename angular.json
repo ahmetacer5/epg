@@ -49,8 +49,6 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
-              "baseHref": "/epg/",
-              "deployUrl": "/epg",
               "budgets": [
                 {
                   "type": "initial",

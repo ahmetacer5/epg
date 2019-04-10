@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
 
+![alt text](https://media.giphy.com/media/H5BfZFoupN58Es2eFM/giphy.gif "App Preview")
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -14,14 +16,27 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Mock-API:
 
-## Running end-to-end tests
+This API provided by Norigin Media Angular App fetches data from this API.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+This is packaged as a standard Node NPM module. To install simply run: `-> npm install` from the project root directory.
+Of course Node.JS should be installed beforehand. For Native Developers not familar with NPM here is the [NPM Documentation](https://docs.npmjs.com/getting-started/installing-node)
 
-## Further help
+To run the update & run mock-api server execute the command below:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```
+-> npm run start
+```
+You should see the server start on port 1337.
+```
+Mock service running at http://localhost:1337
+```
+You can now request data from the mock-api: 
+`Try It: http://localhost:1337/epg`
+
+
+For additional information you can find the package and the documentation here: [Norigin Mock-API](https://github.com/NoriginMedia/mock-api/tree/cloudberry)
+
+---
